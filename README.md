@@ -23,7 +23,6 @@ void loop()
 
 ## libreria.h
 ```c++
-#include "Arduino.h"
 
 void funcion()
 {
