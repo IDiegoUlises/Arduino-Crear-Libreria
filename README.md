@@ -19,27 +19,16 @@ void loop()
 {
 }
 ```
-* Invoca el codigo y funciones incluido en la libreria
-
-## libreria.cpp
-```c++
-#include "Arduino.h"
-
-String variable = "Hola mundo";
-int numero = 7;
-```
-* Este archivo es para guardar las variables de la libreria
+* Invoca funciones incluidas en la libreria
 
 ## libreria.h
 ```c++
 #include "Arduino.h"
-#include "libreria.cpp"
 
 void funcion()
 {
-  Serial.print("Funcion");
-  Serial.println(variable);
-  Serial.println(numero);
+  Serial.begin(9600);
+  Serial.println("hola mundo");
 }
 ```
 * Este archivo contiene las funciones de la libreria
