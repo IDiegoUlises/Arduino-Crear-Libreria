@@ -19,7 +19,7 @@ void loop()
 {
 }
 ```
-* Invoca funciones incluidas en la libreria
+* Invoca a la libreria
 
 ## libreria.h
 ```c++
@@ -30,4 +30,4 @@ void funcion()
   Serial.println("hola mundo");
 }
 ```
-* Este archivo contiene las funciones de la libreria
+* Este archivo contiene las variables y funciones
