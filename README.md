@@ -17,6 +17,7 @@ void setup()
 
 void loop() 
 {
+<img src="https://github.com/IDiegoUlises/Arduino-Crear-Libreria/blob/master/Images/library.png" width="1000" height="600" />
 }
 ```
 * Invoca a la libreria
@@ -31,3 +32,5 @@ void funcion()
 }
 ```
 * Este archivo contiene las variables y funciones
+
+<img src="https://github.com/IDiegoUlises/Arduino-Crear-Libreria/blob/master/Images/library-recortada.png" />
