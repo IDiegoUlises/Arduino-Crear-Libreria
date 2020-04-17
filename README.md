@@ -6,7 +6,7 @@
 Dentro del arduino se presiona CONTROL+shifth+N para crear un archivo se crea dos archivos uno "libreria.h" y otro "libreria.cpp" la razon por la cual se crean dos archivos es que uno llama include "libreria.h" todo el codigo se ejecuta en nuestra funcion principal es decir si en esa parte hemos creado variables se crearan en nuestra seccion principal la razon por la cual se crea el otro archivo es para que solo esten reservadas las funciones y variables que queremos utilizar como funcion();   
 
 
-**Sketch**
+## Sketch
 ```c++
 #include "libreria.h"
 
@@ -19,9 +19,9 @@ void loop()
 {
 }
 ```
-* Invoca el codigo incluido en la libreria
+* Invoca el codigo y funciones incluido en la libreria
 
-**libreria.cpp**
+## libreria.cpp
 ```c++
 #include "Arduino.h"
 
@@ -30,7 +30,7 @@ int numero = 7;
 ```
 * Este archivo es para guardar las variables de la libreria
 
-**libreria.h**
+## libreria.h
 ```c++
 #include "Arduino.h"
 #include "libreria.cpp"
