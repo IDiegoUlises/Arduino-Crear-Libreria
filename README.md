@@ -34,4 +34,3 @@ void funcion()
 * **Este archivo contiene las variables y funciones**
 
 
-# Exportar la libreria
