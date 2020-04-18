@@ -33,4 +33,5 @@ void funcion()
 ```
 * **Este archivo contiene las variables y funciones**
 
-
+## Debug
+<img  src="https://github.com/IDiegoUlises/Arduino-Crear-Libreria/blob/master/Images/puerto-serial.png">
