@@ -20,7 +20,7 @@ void loop()
 {
 }
 ```
-* **Invoca a la libreria creada**
+* **Invoca una funcion de la libreria**
 
 ## libreria.h
 ```c++
