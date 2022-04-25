@@ -35,3 +35,5 @@ void funcion()
 
 ## Debug
 <img  src="https://github.com/IDiegoUlises/Arduino-Crear-Libreria/blob/master/Images/puerto-serial.png">
+
+# Edtiar esta documentacion para que sea mas completa falta agregar un archivo cpp y un keyword que son palabras claves de colores
