@@ -39,8 +39,11 @@ void funcion()
 
 # Edtiar esta documentacion para que sea mas completa falta agregar un archivo cpp y un keyword que son palabras claves de colores
 
+<p align="center">
+  <img  src="https://github.com/IDiegoUlises/Arduino-Crear-Libreria/blob/master/Images/Codigo-Imagen.png">
+</p>
 
-## Main
+## Sketch
 ```c++
 #include "libreria.h"
 
@@ -56,7 +59,7 @@ void loop()
 }
 ```
 
-## CPP
+## libreria.cpp
 ```c++
 #include "libreria.h"
 
@@ -84,4 +87,5 @@ int sumar(int a, int b);
 
 //Aqui se crean las variables
 ```
-
+## Debug
+<img  src="https://github.com/IDiegoUlises/Arduino-Crear-Libreria/blob/master/Images/Debug-2-Puerto-Serial.png">
