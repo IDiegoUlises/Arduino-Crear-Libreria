@@ -1,5 +1,8 @@
-void funcion()
-{
-  Serial.begin(9600);
-  Serial.println("hola mundo");
-}
+#ifndef LIBRERIA_H
+#define LIBRERIA_H
+
+#include <Arduino.h>
+
+int sumar(int a, int b);
+
+#endif
