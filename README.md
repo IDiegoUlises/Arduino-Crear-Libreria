@@ -29,7 +29,7 @@ int sumar(int a, int b)
   return a + b;
 }
 ```
-* Se utiliza la funcion
+* Se utilizan la funciones
 
 ## libreria.h
 ```c++
