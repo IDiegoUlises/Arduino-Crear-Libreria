@@ -1,4 +1,5 @@
-# Crear una Libreria En Arduino editar falta agregar archivo cpp
+# Crear una Libreria En Arduino editar falta agregar archivo cpp 
+se dice que el archivo h es de cabezera
 
 
 <p align="center">
