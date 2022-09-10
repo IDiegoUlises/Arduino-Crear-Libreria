@@ -38,3 +38,50 @@ void funcion()
 <img  src="https://github.com/IDiegoUlises/Arduino-Crear-Libreria/blob/master/Images/puerto-serial.png">
 
 # Edtiar esta documentacion para que sea mas completa falta agregar un archivo cpp y un keyword que son palabras claves de colores
+
+
+## Main
+```c++
+#include "libreria.h"
+
+void setup()
+{
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  int suma = sumar(2,3);
+  Serial.println(suma);
+}
+```
+
+## CPP
+```c++
+#include "libreria.h"
+
+int sumar(int a, int b)
+{
+  return a + b;
+}
+
+
+//Aqui las funciones
+//Aqui solo se pueden utilizar las variables
+//que fueron declaradas en libreria.h
+```
+
+## libreria.h
+```c++
+#ifndef LIBRERIA_H
+#define LIBRERIA_H
+
+#include <Arduino.h>
+
+int sumar(int a, int b);
+
+#endif
+
+//Aqui se crean las variables
+```
+
