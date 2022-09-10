@@ -1,4 +1,4 @@
-# Crear una Libreria En Arduino 
+# Crear Una Libreria En Arduino 
 
 <p align="center">
   <img  src="https://github.com/IDiegoUlises/Arduino-Crear-Libreria/blob/master/Images/Codigo-Imagen.png">
@@ -28,12 +28,8 @@ int sumar(int a, int b)
 {
   return a + b;
 }
-
-
-//Aqui las funciones
-//Aqui solo se pueden utilizar las variables
-//que fueron declaradas en libreria.h
 ```
+* Se utiliza la funcion
 
 ## libreria.h
 ```c++
@@ -46,7 +42,8 @@ int sumar(int a, int b);
 
 #endif
 
-//Aqui se crean las variables
 ```
+* Se crean las variables
+
 ## Debug
 <img  src="https://github.com/IDiegoUlises/Arduino-Crear-Libreria/blob/master/Images/Debug-2-Puerto-Serial.png">
