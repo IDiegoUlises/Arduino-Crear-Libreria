@@ -1,10 +1,12 @@
 #include "libreria.h"
 
-void setup() 
+void setup()
 {
-  funcion();
+  Serial.begin(9600);
 }
 
-void loop() 
+void loop()
 {
+  int suma = sumar(2,3);
+  Serial.println(suma);
 }
